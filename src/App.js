@@ -1,6 +1,8 @@
 import React from "react";
-import RegisteredForm from "./components/RegisteredForm";
-import TableComp from "./components/TableComp";
+import Spinner from "./components/Spinner";
+// import RegisteredForm from "./components/RegisteredForm";
+// import ExpForm from "./components/ExpForm";
+// import TableComp from "./components/TableComp";
 // import { Button, Input } from "antd";
 // import { PoweroffOutlined } from "@ant-design/icons";
 // import { Select, Button } from "antd";
@@ -87,9 +89,11 @@ const App = () => {
         </Button>
       </div> */}
 
-      <div className="flex justify-center items-center h-screen">
+      <div className="flex justify-center items-center flex-col h-screen my-8">
         {/* <RegisteredForm /> */}
-        <TableComp />
+        {/* <TableComp /> */}
+        {/* <ExpForm /> */}
+        <Spinner />
       </div>
     </>
   );
