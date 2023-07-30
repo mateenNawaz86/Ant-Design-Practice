@@ -1,5 +1,9 @@
 import React from "react";
-import Spinner from "./components/Spinner";
+// import Pagination from "./components/Pagination";
+// import SelectionTable from "./components/SelectionTable";
+// import CustomTheme from "./components/CustomTheme";
+import CRUD from "./components/CRUD";
+// import Spinner from "./components/Spinner";
 // import RegisteredForm from "./components/RegisteredForm";
 // import ExpForm from "./components/ExpForm";
 // import TableComp from "./components/TableComp";
@@ -89,11 +93,15 @@ const App = () => {
         </Button>
       </div> */}
 
-      <div className="flex justify-center items-center flex-col h-screen my-8">
+      <div className="flex justify-center items-center flex-col h-screen">
         {/* <RegisteredForm /> */}
         {/* <TableComp /> */}
         {/* <ExpForm /> */}
-        <Spinner />
+        {/* <Spinner /> */}
+        {/* <Pagination /> */}
+        {/* <SelectionTable /> */}
+        {/* <CustomTheme /> */}
+        <CRUD />
       </div>
     </>
   );
