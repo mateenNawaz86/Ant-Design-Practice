@@ -1,8 +1,9 @@
 import React from "react";
+import SearchBox from "./components/SearchBox";
 // import Pagination from "./components/Pagination";
 // import SelectionTable from "./components/SelectionTable";
 // import CustomTheme from "./components/CustomTheme";
-import CRUD from "./components/CRUD";
+// import CRUD from "./components/CRUD";
 // import Spinner from "./components/Spinner";
 // import RegisteredForm from "./components/RegisteredForm";
 // import ExpForm from "./components/ExpForm";
@@ -101,7 +102,8 @@ const App = () => {
         {/* <Pagination /> */}
         {/* <SelectionTable /> */}
         {/* <CustomTheme /> */}
-        <CRUD />
+        {/* <CRUD /> */}
+        <SearchBox />
       </div>
     </>
   );
