@@ -1,5 +1,6 @@
 import React from "react";
-import SearchBox from "./components/SearchBox";
+// import SearchBox from "./components/SearchBox";
+import FormValidation from "./components/FormValidation";
 // import Pagination from "./components/Pagination";
 // import SelectionTable from "./components/SelectionTable";
 // import CustomTheme from "./components/CustomTheme";
@@ -94,7 +95,7 @@ const App = () => {
         </Button>
       </div> */}
 
-      <div className="flex justify-center items-center flex-col h-screen">
+      <div className="flex justify-center items-center flex-col h-full my-10">
         {/* <RegisteredForm /> */}
         {/* <TableComp /> */}
         {/* <ExpForm /> */}
@@ -103,7 +104,8 @@ const App = () => {
         {/* <SelectionTable /> */}
         {/* <CustomTheme /> */}
         {/* <CRUD /> */}
-        <SearchBox />
+        {/* <SearchBox /> */}
+        <FormValidation />
       </div>
     </>
   );
