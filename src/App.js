@@ -1,6 +1,12 @@
 import React from "react";
+import CustomDivider from "./components/CustomDivider";
+// import TypographyComp from "./components/TypographyComp";
+// import EditTable from "./components/EditTable";
+// import CustomPagination from "./components/CustomPagination";
+// import Tags from "./components/Tags";
+// import FileUpload from "./components/FileUpload";
 // import SearchBox from "./components/SearchBox";
-import FormValidation from "./components/FormValidation";
+// import FormValidation from "./components/FormValidation";
 // import Pagination from "./components/Pagination";
 // import SelectionTable from "./components/SelectionTable";
 // import CustomTheme from "./components/CustomTheme";
@@ -95,7 +101,7 @@ const App = () => {
         </Button>
       </div> */}
 
-      <div className="flex justify-center items-center flex-col h-full my-10">
+      <div className="flex justify-center items-center flex-col h-screen">
         {/* <RegisteredForm /> */}
         {/* <TableComp /> */}
         {/* <ExpForm /> */}
@@ -105,7 +111,13 @@ const App = () => {
         {/* <CustomTheme /> */}
         {/* <CRUD /> */}
         {/* <SearchBox /> */}
-        <FormValidation />
+        {/* <FormValidation /> */}
+        {/* <FileUpload /> */}
+        {/* <Tags /> */}
+        {/* <EditTable /> */}
+        {/* <CustomPagination /> */}
+        {/* <TypographyComp /> */}
+        <CustomDivider />
       </div>
     </>
   );
