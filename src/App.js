@@ -1,5 +1,8 @@
 import React from "react";
-import CustomDivider from "./components/CustomDivider";
+import AvatarComp from "./components/AvatarComp";
+// import MenuComp from "./components/MenuComp";
+// import TabsComp from "./components/TabsComp";
+// import CustomDivider from "./components/CustomDivider";
 // import TypographyComp from "./components/TypographyComp";
 // import EditTable from "./components/EditTable";
 // import CustomPagination from "./components/CustomPagination";
@@ -117,7 +120,10 @@ const App = () => {
         {/* <EditTable /> */}
         {/* <CustomPagination /> */}
         {/* <TypographyComp /> */}
-        <CustomDivider />
+        {/* <CustomDivider /> */}
+        {/* <MenuComp /> */}
+        {/* <TabsComp /> */}
+        <AvatarComp />
       </div>
     </>
   );
