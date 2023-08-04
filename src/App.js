@@ -1,5 +1,9 @@
 import React from "react";
-import AvatarComp from "./components/AvatarComp";
+// import CollapseComp from "./components/CollapseComp";
+import DynamicForm from "./components/DynamicForm";
+// import CarouselComp from "./components/CarouselComp";
+// import StepsComp from "./components/StepsComp";
+// import AvatarComp from "./components/AvatarComp";
 // import MenuComp from "./components/MenuComp";
 // import TabsComp from "./components/TabsComp";
 // import CustomDivider from "./components/CustomDivider";
@@ -123,7 +127,11 @@ const App = () => {
         {/* <CustomDivider /> */}
         {/* <MenuComp /> */}
         {/* <TabsComp /> */}
-        <AvatarComp />
+        {/* <AvatarComp /> */}
+        {/* <CarouselComp /> */}
+        {/* <StepsComp /> */}
+        {/* <CollapseComp /> */}
+        <DynamicForm />
       </div>
     </>
   );
