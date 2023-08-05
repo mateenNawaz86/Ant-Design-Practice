@@ -1,6 +1,9 @@
 import React from "react";
+// import SideMenu from "./components/SideMenu";
+// import ExpendedTable from "./components/ExpendedTable";
+import GlobalSearch from "./components/GlobalSearch";
 // import CollapseComp from "./components/CollapseComp";
-import DynamicForm from "./components/DynamicForm";
+// import DynamicForm from "./components/DynamicForm";
 // import CarouselComp from "./components/CarouselComp";
 // import StepsComp from "./components/StepsComp";
 // import AvatarComp from "./components/AvatarComp";
@@ -131,8 +134,11 @@ const App = () => {
         {/* <CarouselComp /> */}
         {/* <StepsComp /> */}
         {/* <CollapseComp /> */}
-        <DynamicForm />
+        {/* <DynamicForm /> */}
+        {/* <ExpendedTable /> */}
+        <GlobalSearch />
       </div>
+      {/* <SideMenu /> */}
     </>
   );
 };
