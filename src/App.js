@@ -1,7 +1,10 @@
 import React from "react";
+import RightClickMenu from "./components/RightClickMenu";
+// import CustomCountdown from "./components/CountdownComp";
+// import ScrolledTable from "./components/ScrolledTable";
 // import SideMenu from "./components/SideMenu";
 // import ExpendedTable from "./components/ExpendedTable";
-import GlobalSearch from "./components/GlobalSearch";
+// import GlobalSearch from "./components/GlobalSearch";
 // import CollapseComp from "./components/CollapseComp";
 // import DynamicForm from "./components/DynamicForm";
 // import CarouselComp from "./components/CarouselComp";
@@ -111,7 +114,7 @@ const App = () => {
         </Button>
       </div> */}
 
-      <div className="flex justify-center items-center flex-col h-screen">
+      <div className="flex justify-center items-center text-center flex-col h-screen">
         {/* <RegisteredForm /> */}
         {/* <TableComp /> */}
         {/* <ExpForm /> */}
@@ -136,7 +139,10 @@ const App = () => {
         {/* <CollapseComp /> */}
         {/* <DynamicForm /> */}
         {/* <ExpendedTable /> */}
-        <GlobalSearch />
+        {/* <GlobalSearch /> */}
+        {/* <ScrolledTable /> */}
+        {/* <CustomCountdown /> */}
+        <RightClickMenu />
       </div>
       {/* <SideMenu /> */}
     </>

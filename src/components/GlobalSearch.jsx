@@ -10,7 +10,11 @@ const GlobalSearch = () => {
       dataIndex: "name",
       filteredValue: [searchText],
       onFilter: (value, record) => {
-        return String(record.name).toLowerCase().includes(value.toLowerCase());
+        return (
+          String(record.name).toLowerCase().includes(value.toLowerCase()) ||
+          String(record.age).toLowerCase().includes(value.toLowerCase()) ||
+          String(record.address).toLowerCase().includes(value.toLowerCase())
+        );
       },
     },
 
