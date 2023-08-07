@@ -1,5 +1,11 @@
 import React from "react";
-import RightClickMenu from "./components/RightClickMenu";
+import CustomCalender from "./components/CustomCalender";
+// import SkeletonComp from "./components/SkeletonComp";
+// import RatingComp from "./components/RatingComp";
+// import AutoCompleteComp from "./components/AutoCompleteComp";
+// import DrawerComp from "./components/DrawerComp";
+// import RightClickMenu from "./components/RightClickMenu";
+// import ToggleBtn from "./components/ToggleBtn";
 // import CustomCountdown from "./components/CountdownComp";
 // import ScrolledTable from "./components/ScrolledTable";
 // import SideMenu from "./components/SideMenu";
@@ -142,7 +148,13 @@ const App = () => {
         {/* <GlobalSearch /> */}
         {/* <ScrolledTable /> */}
         {/* <CustomCountdown /> */}
-        <RightClickMenu />
+        {/* <RightClickMenu /> */}
+        {/* <ToggleBtn /> */}
+        {/* <DrawerComp /> */}
+        {/* <SkeletonComp /> */}
+        {/* <RatingComp /> */}
+        {/* <AutoCompleteComp /> */}
+        <CustomCalender />
       </div>
       {/* <SideMenu /> */}
     </>
