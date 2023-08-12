@@ -1,5 +1,10 @@
 import React from "react";
-import CustomCalender from "./components/CustomCalender";
+import CaputeInp from "./components/CaputeInp";
+// import GlobalSorting from "./components/GlobalSorting";
+// import ResponsiveNav from "./components/ResponsiveNav";
+// import CustomCard from "./components/CustomCard";
+// import StepsForm from "./components/StepsForm";
+// import CustomCalender from "./components/CustomCalender";
 // import SkeletonComp from "./components/SkeletonComp";
 // import RatingComp from "./components/RatingComp";
 // import AutoCompleteComp from "./components/AutoCompleteComp";
@@ -119,7 +124,7 @@ const App = () => {
           Submit
         </Button>
       </div> */}
-
+      {/* <ResponsiveNav /> */}
       <div className="flex justify-center items-center text-center flex-col h-screen">
         {/* <RegisteredForm /> */}
         {/* <TableComp /> */}
@@ -154,8 +159,12 @@ const App = () => {
         {/* <SkeletonComp /> */}
         {/* <RatingComp /> */}
         {/* <AutoCompleteComp /> */}
-        <CustomCalender />
+        {/* <CustomCalender /> */}
+        {/* <StepsForm /> */}
+        {/* <GlobalSorting /> */}
+        <CaputeInp />
       </div>
+      {/* <CustomCard /> */}
       {/* <SideMenu /> */}
     </>
   );
